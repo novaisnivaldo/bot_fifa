@@ -1,0 +1,40 @@
+Primeiro passo é criar uma conta no google cloud
+
+Primeira parte:
+https://www.youtube.com/watch?v=95bKOLHyPuI&t=5s
+
+Segunda parte:
+https://www.youtube.com/watch?v=zPckZPX73ts&t=9s
+
+Terceira parte:
+https://www.youtube.com/watch?v=4SkFq2PjaTc&t=534s
+
+Instalando as ferramentas no servidor:
+	sudo apt upgrade
+	sudo apt update
+	sudo apt-get install python3-pip
+	sudo apt install git
+
+Instalando as bibliotecas no python: Imporante ter o break no código para não dar conflito com o sudo
+	pip install telethon --break-system-packages
+	pip install sync --break-system-packages
+	pip install pandas --break-system-packages
+
+Para enviar as informações para o GitHub:
+	instalar as aplicações no computador:
+		https://www.git-scm.com/downloads
+		https://desktop.github.com/?ref_cta=download+desktop&ref_loc=installing+github+desktop&ref_page=docs
+
+Após instalado o GitHub, você precisa enviar os códigos ao servidor pelo clone GitHub dentro do terminal, mas antes, assistir o vídeo abaixo para enviar as informações do computador local para o GitHub:
+	https://www.youtube.com/watch?v=aINs3ouaoJk&t=5s
+
+Por último, executar o python dentro do servidor:
+	Primeiro navegar até a pasta onde encontra-se os códigos em python;
+	nohup python3 'Repasse Mensagem.py' &
+		Anotar o código de execução da tarefa, para que você derrube depois; Código: 73742
+	
+	Para entrar no gerenciador de tarfa, digite: top
+	Para sair do gerenciador de tarefa, digite: q
+	para derrubar o processo do python, digite kill 73742 e o código anotado.
+
+	
